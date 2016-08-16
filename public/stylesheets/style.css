@@ -1,0 +1,88 @@
+/*Tags */
+
+section {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    position:relative;
+}
+
+section .header-content {
+    position: absolute;
+    min-width: 100%;
+    padding: 250px 0px;
+    text-align: center;
+
+}
+/*Class*/
+.navbar-alpha{
+  background-color: transparent;
+}
+
+.bg-cust1{
+  background-image: url(../images/first.jpg);
+  color: white;
+}
+
+.bg-cust2{
+  background-image: url(../images/about.jpg);
+  color: black;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+
+/*RWD*/
+@media (min-width: 768px)
+header {
+    min-height: 100%;
+}
+
+@media (min-width: 768px)
+header .header-content {
+    position: absolute;
+    top: 50%;
+    padding: 0 50px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+/*id */
